@@ -1,0 +1,37 @@
+[20-Jun-2023 00:23:48 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1203] User bibliasa_usuario already has more than 'max_user_connections' active connections in /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php:51
+Stack trace:
+#0 /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php(51): PDO->__construct('mysql:host=loca...', 'bibliasa_usuari...', 'empari123')
+#1 /home1/bibliasagradanet/public_html/app.ado/TTransaction.class.php(28): TConnection::open('bibliasa_biblia...')
+#2 /home1/bibliasagradanet/public_html/app.model/Livro.class.php(36): TTransaction::open()
+#3 /home1/bibliasagradanet/public_html/index.php(135): Livro::getAllVT()
+#4 {main}
+  thrown in /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php on line 51
+[20-Jun-2023 00:24:22 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1203] User bibliasa_usuario already has more than 'max_user_connections' active connections in /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php:51
+Stack trace:
+#0 /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php(51): PDO->__construct('mysql:host=loca...', 'bibliasa_usuari...', 'empari123')
+#1 /home1/bibliasagradanet/public_html/app.ado/TTransaction.class.php(28): TConnection::open('bibliasa_biblia...')
+#2 /home1/bibliasagradanet/public_html/app.model/Biblia.class.php(31): TTransaction::open()
+#3 /home1/bibliasagradanet/public_html/vercapitulo.php(23): Biblia::getLivros('PV')
+#4 /home1/bibliasagradanet/public_html/index.php(128): include('/home1/bibliasa...')
+#5 {main}
+  thrown in /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php on line 51
+[20-Jun-2023 00:24:22 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1203] User bibliasa_usuario already has more than 'max_user_connections' active connections in /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php:51
+Stack trace:
+#0 /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php(51): PDO->__construct('mysql:host=loca...', 'bibliasa_usuari...', 'empari123')
+#1 /home1/bibliasagradanet/public_html/app.ado/TTransaction.class.php(28): TConnection::open('bibliasa_biblia...')
+#2 /home1/bibliasagradanet/public_html/app.model/Biblia.class.php(47): TTransaction::open()
+#3 /home1/bibliasagradanet/public_html/vercapitulo.php(8): Biblia::getVersiculos('GN', '43')
+#4 /home1/bibliasagradanet/public_html/index.php(128): include('/home1/bibliasa...')
+#5 {main}
+  thrown in /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php on line 51
+[05-Aug-2023 05:58:20 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1203] User bibliasa_usuario already has more than 'max_user_connections' active connections in /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php:51
+Stack trace:
+#0 /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php(51): PDO->__construct('mysql:host=loca...', 'bibliasa_usuari...', 'empari123')
+#1 /home1/bibliasagradanet/public_html/app.ado/TTransaction.class.php(28): TConnection::open('bibliasa_biblia...')
+#2 /home1/bibliasagradanet/public_html/app.model/Livro.class.php(56): TTransaction::open()
+#3 /home1/bibliasagradanet/public_html/index.php(147): Livro::getAllNT()
+#4 {main}
+  thrown in /home1/bibliasagradanet/public_html/app.ado/TConnection.class.php on line 51
+[11-Jan-2024 13:03:12 America/Sao_Paulo] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home1/bibliasagradanet/public_html/autoload.php on line 2
+[11-Jan-2024 13:03:14 America/Sao_Paulo] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home1/bibliasagradanet/public_html/autoload.php on line 2
+[11-Jan-2024 13:03:15 America/Sao_Paulo] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home1/bibliasagradanet/public_html/autoload.php on line 2
